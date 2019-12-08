@@ -29,7 +29,7 @@
     $host = "webarif.database.windows.net";
     $user = "arif";
     $pass = "1324Aina";
-    $db = "<Nama database Anda>";
+    $db = "web_sql";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);

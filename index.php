@@ -26,7 +26,7 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "webform.database.windows.net";
+    $host = "formweb.database.windows.net";
     $user = "arif";
     $pass = "1324Aina";
     $db = "web_sql";

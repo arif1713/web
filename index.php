@@ -32,7 +32,7 @@
     $db = "web_sql";
 
     try {
-       $conn = new PDO("sqlsrv:server = tcp:formweb.database.windows.net,1433; Database = web_sql", "arif", "{your_password_here}");
+       $conn = new PDO("sqlsrv:server = tcp:formweb.database.windows.net,1433; Database = web_sql", "arif", "1324Aina");
        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     } catch(Exception $e) {
         echo "Failed: " . $e;
